@@ -1,9 +1,4 @@
-print("How many antennas?")
-
 a = int(input())
-
-print("How many eyes?")
-
 b = int(input())
 
 if a >= 3 and b <= 4:
