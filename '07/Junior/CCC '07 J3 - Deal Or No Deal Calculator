@@ -1,0 +1,46 @@
+stacks = [100, 500, 1000, 5000, 10000, 25000, 50000, 100000, 500000, 1000000]
+
+opened_cases = int(input())
+
+for i in range(opened_cases):
+  case = int(input())
+  
+  if case == 1:
+    stacks.remove(100)
+    
+  if case == 2:
+    stacks.remove(500)
+    
+  if case == 3:
+    stacks.remove(1000)
+    
+  if case == 4:
+    stacks.remove(5000)
+    
+  if case == 5:
+    stacks.remove(10000)
+    
+  if case == 6:
+    stacks.remove(25000)
+    
+  if case == 7:
+    stacks.remove(50000)
+    
+  if case == 8:
+    stacks.remove(100000)
+    
+  if case == 9:
+    stacks.remove(500000)
+    
+  if case == 10:
+    stacks.remove(1000000)
+    
+dealer_offer = int(input())
+
+average = sum(stacks) / len(stacks)
+
+if average > dealer_offer:
+  print("no deal")
+  
+if average < dealer_offer:
+  print("deal")
