@@ -4,8 +4,6 @@ counter = 0
 
 if a == 5:
   counter = 1
-  print(counter)
-  quit()
   
 elif a > 5:
   leftcounter = 5
