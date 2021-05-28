@@ -10,10 +10,10 @@ for i in range(numberofrounds):
     d_roll = rolls[1]
 
     if a_roll < d_roll:
-        ascoretotal = ascoretotal - d_roll
+        ascoretotal -= d_roll
         dscoretotal = dscoretotal
     elif a_roll > d_roll:
-        dscoretotal = dscoretotal - a_roll
+        dscoretotal -= a_roll
         ascoretotal = ascoretotal
     else:
         pass
