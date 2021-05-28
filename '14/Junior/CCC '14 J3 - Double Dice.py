@@ -11,10 +11,10 @@ for i in range(numberofrounds):
 
     if a_roll < d_roll:
         ascoretotal -= d_roll
-        dscoretotal = dscoretotal
+        
     elif a_roll > d_roll:
         dscoretotal -= a_roll
-        ascoretotal = ascoretotal
+        
     else:
         pass
 
